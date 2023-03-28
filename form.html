@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1 align="center">Registration Form</h1>
+    <form align="center"> <!--สร้างแบบฟอร์ม-->
+        <div>
+            <label for="firstname">firstname</label>
+            <input type="text" name="fname" placeholder="Enter your first name" required>
+        </div>
+        <div>
+            <label for="lastname">lastname</label>
+            <input type="text" name="lastname" placeholder="Enter your last name">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" placeholder="Enter your password">
+        </div>
+        <div>
+            <label for="">address</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="number" name="age" placeholder="Enter your age" min="0">
+        </div>
+        <div>
+            <label for="birthdate">date of birth</label>
+            <input type="date" name="birthdate" placeholder="Enter your date of birth">
+        </div>
+        <div>
+            <label for="tel">telephone number</label>
+            <input type="tel" name="tel" placeholder="Enter your telephone number">
+        </div>
+        <div>
+            <label for="education">education</label>
+            <select name="education" id="">
+                <option value="Diploma  Degree">Diploma  Degree</option>
+                <option value="Bachelor Degree">Bachelor Degree</option>
+                <option value="Master Degree">Master Degree</option>
+                <option value="Doctoral Degrees">Doctoral Degrees</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender">gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+        </div>
+        <div>
+            <label for="">Hobby</label>
+            <input type="checkbox" name="favorite">Sport
+            <input type="checkbox" name="favorite">Music
+            <input type="checkbox" name="favorite">Movie
+            <input type="checkbox" name="favorite">
+            <input type="checkbox" name="favorite">
+            <input type="checkbox" name="favorite">
+        </div>
+        <div>
+            <label for="document">File</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="facebook">Facebook</label>
+            <input type="url">
+        </div>
+        <div>
+            <button type="submit">Save</button>
+            <button type="reset">Reset</button>    
+        </div>
+    </form>
+    <br/>
+    <hr>
+    <a href="index.html">Go To Home Page</a>
+</body>
+</html>
