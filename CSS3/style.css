@@ -3,6 +3,9 @@ h1{
     text-decoration: underline;
     color: darkblue;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+
 }
 div{
     border:3px dashed black;
@@ -46,6 +49,22 @@ body{
 .box-CSS3{
     font-style: italic;
     padding: 10px;
+}
+.image-logo
+{
+    width: 500px;
+}
+.box-float1{
+    width: 170px;
+    float: left;
+}
+.box-float2{
+    width: 170px;
+    float: right;
+}
+.box-float3{
+    width: 170px;
+    float: none;
 }
 
   
