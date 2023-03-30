@@ -1,0 +1,51 @@
+h1{
+    font-size: 40px;
+    text-decoration: underline;
+    color: darkblue;
+    text-align: center;
+}
+div{
+    border:3px dashed black;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: aquamarine;
+}
+img{
+    width: 150px;
+    margin: 10px;
+    
+}
+body{
+    background-color: palevioletred;
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box-1{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.box-2{
+    padding: 10px;
+}
+.box-3{
+    padding: 10px;
+}
+.box-4{
+    padding: 10px;
+}
+.box-image{
+    background-image: url();
+}
+.box-CSS3{
+    font-style: italic;
+    padding: 10px;
+}
+
+  
